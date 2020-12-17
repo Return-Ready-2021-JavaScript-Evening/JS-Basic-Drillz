@@ -67,7 +67,7 @@ test("return the middle character of `inputValue`", () => {
 
 
     // When
-    let actual = strangerStrings.getMiddleCharacter(input);
+    let actual = strangerStrings.getMiddleCharacter(inputValue);
     //Then
     expect(actual).toEqual(expected);
 });
@@ -89,13 +89,13 @@ test("return the first sequence of characters", () => {
 test("return the second sequence of characters", () => {
     // Given
     let strangerStrings = new StrangerStrings();
-    let inputValue = 'Wutang Clan';
+    let spaceDelimnatedInput = 'Wutang Clan';
 
     let expected = "Clan";
 
 
     // When
-    let actual = strangerStrings.getSecondWord(inputValue);
+    let actual = strangerStrings.getSecondWord(spaceDelimnatedInput);
     //Then
     expect(actual).toEqual(expected);
 });
