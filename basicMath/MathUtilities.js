@@ -2,19 +2,19 @@ class MathUtilities {
 
 
     add(baseValue, valueToAdd){
-        return -1;
+        return baseValue + valueToAdd;
     }
 
     subtract(baseValue, valueToAdd){
-        return -1;
+        return baseValue - valueToAdd;
     }
 
     divide(baseValue, valueToAdd){
-        return -1;
+        return baseValue / valueToAdd;
     }
 
     multiply(baseValue, valueToAdd){
-        return -1;
+        return baseValue * valueToAdd;
     }
 }
 
