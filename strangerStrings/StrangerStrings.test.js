@@ -67,7 +67,7 @@ test("return the middle character of `inputValue`", () => {
 
 
     // When
-    let actual = strangerStrings.getMiddleCharacter(input);
+    let actual = strangerStrings.getMiddleCharacter(inputValue);
     //Then
     expect(actual).toEqual(expected);
 });
