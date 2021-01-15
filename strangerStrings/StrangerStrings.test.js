@@ -58,10 +58,10 @@ test("return the last 3 characters of `input`", () => {
 });
 
 
-test("return the middle character of `inputValue`", () => {
+test("return the middle character of `input`", () => {
     // Given
     let strangerStrings = new StrangerStrings();
-    let inputValue = 'MethodMan';
+    let input = 'MethodMan';
 
     let expected = "o";
 
@@ -72,30 +72,30 @@ test("return the middle character of `inputValue`", () => {
     expect(actual).toEqual(expected);
 });
 
-test("return the first sequence of characters", () => {
+test("return the first sequence of characters of `input`", () => {
     // Given
     let strangerStrings = new StrangerStrings();
-    let inputValue = 'Wutang Clan';
+    let input = 'Wutang Clan';
 
     let expected = "Wutang";
 
 
     // When
-    let actual = strangerStrings.getFirstWord(inputValue);
+    let actual = strangerStrings.getFirstWord(input);
     //Then
     expect(actual).toEqual(expected);
 });
 
-test("return the second sequence of characters", () => {
+test("return the second sequence of characters of `input`", () => {
     // Given
     let strangerStrings = new StrangerStrings();
-    let inputValue = 'Wutang Clan';
+    let input = 'Wutang Clan';
 
     let expected = "Clan";
 
 
     // When
-    let actual = strangerStrings.getSecondWord(inputValue);
+    let actual = strangerStrings.getSecondWord(input);
     //Then
     expect(actual).toEqual(expected);
 });
@@ -103,13 +103,13 @@ test("return the second sequence of characters", () => {
 test("return the reverse of input", () => {
     // Given
     let strangerStrings = new StrangerStrings();
-    let inputValue = 'WutangClan';
+    let input = 'WutangClan';
 
     let expected = "nalCgnatuW";
 
 
     // When
-    let actual = strangerStrings.reverse(inputValue);
+    let actual = strangerStrings.reverse(input);
     //Then
     expect(actual).toEqual(expected);
 });
